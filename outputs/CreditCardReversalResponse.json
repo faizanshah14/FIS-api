@@ -1,0 +1,29 @@
+{
+  "ExpressResponseCode": "0",
+  "ExpressResponseMessage": "Success",
+  "HostResponseCode": "00",
+  "ExpressTransactionDate": "20231110",
+  "ExpressTransactionTime": "063343",
+  "ExpressTransactionTimezone": "UTC-06:00:00",
+  "Batch": { "HostBatchID": ["1"], "HostItemID": ["4"] },
+  "Card": {
+    "CardLogo": ["Mastercard"],
+    "CardNumberMasked": ["xxxx-xxxx-xxxx-0011"],
+    "BIN": ["222300"]
+  },
+  "Transaction": {
+    "TransactionID": ["310370100"],
+    "ApprovalNumber": ["502724"],
+    "ReferenceNumber": ["123456"],
+    "AcquirerData": [
+      "370100|331406369983|1110123343|1042000314||5|||||||||||||||||00|0100|063311|1110|MCC350286|||||429 2P3|1110||||||||"
+    ],
+    "ProcessorName": ["VANTIV_TEST"],
+    "TransactionStatus": ["Success"],
+    "TransactionStatusCode": ["8"],
+    "HostTransactionID": ["010000"],
+    "RetrievalReferenceNumber": ["331406369983"],
+    "SystemTraceAuditNumber": ["370100"]
+  },
+  "Terminal": { "MotoECICode": ["7"] }
+}

@@ -1,0 +1,44 @@
+{
+  "ExpressResponseCode": ["0"],
+  "ExpressResponseMessage": ["Approved"],
+  "HostResponseCode": ["00"],
+  "ExpressTransactionDate": ["20231110"],
+  "ExpressTransactionTime": ["063311"],
+  "ExpressTransactionTimezone": ["UTC-06:00:00"],
+  "Batch": [
+    {
+      "HostBatchID": ["1"],
+      "HostItemID": ["4"],
+      "HostReversalQueueID": ["331406369983"],
+      "HostBatchAmount": ["376.00"]
+    }
+  ],
+  "Card": [
+    {
+      "CVVResponseCode": ["M"],
+      "ExpirationMonth": ["12"],
+      "ExpirationYear": ["25"],
+      "CardLogo": ["Mastercard"],
+      "CardNumberMasked": ["xxxx-xxxx-xxxx-0011"],
+      "BIN": ["222300"]
+    }
+  ],
+  "Transaction": [
+    {
+      "TransactionID": ["310369983"],
+      "ApprovalNumber": ["871471"],
+      "ReferenceNumber": ["123456"],
+      "AcquirerData": [
+        "369983|331406369983|1110123311|1042000314||5|||||||||||||||||00|0100|063311|1110|MCC987148|||||429 2P3|1110||F||||||"
+      ],
+      "ProcessorName": ["VANTIV_TEST"],
+      "TransactionStatus": ["Approved"],
+      "TransactionStatusCode": ["1"],
+      "HostTransactionID": ["110000"],
+      "ApprovedAmount": ["94.00"],
+      "NetworkTransactionID": ["MCC987148"],
+      "RetrievalReferenceNumber": ["331406369983"],
+      "SystemTraceAuditNumber": ["369983"]
+    }
+  ]
+}

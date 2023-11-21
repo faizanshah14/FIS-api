@@ -23,10 +23,10 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
         <EncryptedFormat></EncryptedFormat>
         <Track2Data></Track2Data>
         <Track1Data></Track1Data>
-        <CardNumber>341111597242000</CardNumber>
+        <CardNumber>8171999927660000</CardNumber>
         <ExpirationMonth>12</ExpirationMonth>
         <ExpirationYear>22</ExpirationYear>
-        <CVV>4321</CVV>
+        <CVV>111</CVV>
         <CVVResponseCode>M</CVVResponseCode>
     </Card>
     <Address>
@@ -37,7 +37,7 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
         <BillingAddress2></BillingAddress2>
         <BillingCity></BillingCity>
         <BillingState></BillingState>
-        <BillingZipcode>33333</BillingZipcode>
+        <BillingZipcode>33606</BillingZipcode>
         <ShippingName></ShippingName>
         <ShippingEmail></ShippingEmail>
         <ShippingPhone></ShippingPhone>
@@ -49,8 +49,8 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
         <AddressEditAllowed></AddressEditAllowed>
     </Address>
     <Transaction>
-        <TransactionAmount>56.00</TransactionAmount>
-        <MarketCode>0</MarketCode>
+        <TransactionAmount>16.00</TransactionAmount>
+        <MarketCode>3</MarketCode>
         <ReferenceNumber>123456</ReferenceNumber>
         <TicketNumber>123456</TicketNumber>
         <PartialApprovedFlag>0</PartialApprovedFlag>
@@ -59,16 +59,16 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
         <SubmissionType>0</SubmissionType>
     </Transaction>
     <Terminal>
-        <TerminalID>01</TerminalID>
-        <TerminalType>0</TerminalType>
-        <TerminalCapabilityCode>0</TerminalCapabilityCode>
-        <TerminalEnvironmentCode>0</TerminalEnvironmentCode>
-        <CardPresentCode>0</CardPresentCode>
-        <CVVPresenceCode>1</CVVPresenceCode>
-        <CardInputCode>0</CardInputCode>
-        <CardholderPresentCode>0</CardholderPresentCode>
-        <MotoECICode>0</MotoECICode>
-    </Terminal>
+        <TerminalID>0001</TerminalID>
+        <CardholderPresentCode>7</CardholderPresentCode>
+        <CardInputCode>4</CardInputCode>
+        <CardPresentCode>3</CardPresentCode>
+        <CVVPresenceCode>2</CVVPresenceCode>
+        <TerminalCapabilityCode>5</TerminalCapabilityCode>
+        <TerminalEnvironmentCode>6</TerminalEnvironmentCode>
+        <TerminalType>2</TerminalType>
+        <MotoECICode>7</MotoECICode>
+        </Terminal>
     <ExtendedParameters>
 	</ExtendedParameters>
 </CreditCardAuthorization>

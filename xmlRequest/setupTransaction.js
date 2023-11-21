@@ -41,7 +41,7 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
         <Transaction>
             <ApprovalNumber></ApprovalNumber>
             <TransactionAmount>2.00</TransactionAmount>
-            <MarketCode>0</MarketCode>
+            <MarketCode>3</MarketCode>
             <ReferenceNumber>123456</ReferenceNumber>
             <DuplicateCheckDisableFlag>1</DuplicateCheckDisableFlag>
         </Transaction>

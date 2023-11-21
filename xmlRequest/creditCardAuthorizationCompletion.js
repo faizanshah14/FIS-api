@@ -14,29 +14,29 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
         <ApplicationVersion>1.00</ApplicationVersion>
     </Application>
     <Transaction>
-        <TransactionID>308406734</TransactionID>
-        <TransactionAmount>60.00</TransactionAmount>
+        <TransactionID>310805272</TransactionID>
+        <TransactionAmount>56.00</TransactionAmount>
         <OriginalAuthorizedAmount>0.00</OriginalAuthorizedAmount>
         <SalesTaxAmount>0.00</SalesTaxAmount>
         <TipAmount>0.00</TipAmount>
         <CashBackAmount>0.00</CashBackAmount>
         <ReferenceNumber>123456</ReferenceNumber>
         <TicketNumber>123456</TicketNumber>
-        <MarketCode>0</MarketCode>
+        <MarketCode>3</MarketCode>
         <DuplicateCheckDisableFlag>0</DuplicateCheckDisableFlag>
         <PaymentType>0</PaymentType>
         <SubmissionType>0</SubmissionType>
     </Transaction>
     <Terminal>
-        <TerminalID>01</TerminalID>
-        <TerminalType>0</TerminalType>
-        <TerminalCapabilityCode>0</TerminalCapabilityCode>
-        <TerminalEnvironmentCode>0</TerminalEnvironmentCode>
-        <CardPresentCode>0</CardPresentCode>
-        <CVVPresenceCode>0</CVVPresenceCode>
-        <CardInputCode>0</CardInputCode>
-        <CardholderPresentCode>0</CardholderPresentCode>
-        <MotoECICode>0</MotoECICode>
+        <TerminalID>0001</TerminalID>
+        <CardholderPresentCode>7</CardholderPresentCode>
+        <CardInputCode>4</CardInputCode>
+        <CardPresentCode>3</CardPresentCode>
+        <CVVPresenceCode>2</CVVPresenceCode>
+        <TerminalCapabilityCode>5</TerminalCapabilityCode>
+        <TerminalEnvironmentCode>6</TerminalEnvironmentCode>
+        <TerminalType>2</TerminalType>
+        <MotoECICode>7</MotoECICode>
     </Terminal>
 </CreditCardAuthorizationCompletion>
     `

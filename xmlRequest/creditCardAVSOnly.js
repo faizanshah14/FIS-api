@@ -49,7 +49,7 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
     </Address>
     <Transaction>
         <TransactionAmount>60.00</TransactionAmount>
-        <MarketCode>0</MarketCode>
+        <MarketCode>3</MarketCode>
         <ReferenceNumber>123456</ReferenceNumber>
         <TicketNumber>123456</TicketNumber>
         <PartialApprovedFlag>0</PartialApprovedFlag>

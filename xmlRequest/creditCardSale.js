@@ -1,15 +1,5 @@
 'use strict'
 
-//this file will return an xml request body
-//for a credit card sale
-//terminal class
-/*
-Possible parameters for credit card sale
-List of possible elements expected : 'PINEncryptionWorkingKey, TerminalEMVKernelVersion, LaneNumber, StoreCardID, MessageAuthenticationWorkingKey, ChipConditionCode, OperatorID, TerminalType, TerminalEncryptionFormat, TerminalSerialNumber, TerminalModel, TerminalPinCapability, SoftPOSID, GlobalTerminalType, StoreCardPassword, MessageEncryptionWorkingKey, ConsentCode'
-
-
-*/
-
 /* 
 required parameters 
 CardholderPresentCode 7 ECommerce
@@ -57,14 +47,14 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID}) => {
                 <EncryptedFormat></EncryptedFormat>
                 <Track2Data></Track2Data>
                 <Track1Data></Track1Data>
-                <CardNumber>2223000048400011</CardNumber>
+                <CardNumber>8171999927660000</CardNumber>
                 <ExpirationMonth>12</ExpirationMonth>
                 <ExpirationYear>25</ExpirationYear>
-                <CVV>382</CVV>
+                <CVV>111</CVV>
             </Card>
             <Transaction>
-                <TransactionAmount>94.00</TransactionAmount>
-                <MarketCode>0</MarketCode>
+                <TransactionAmount>13.00</TransactionAmount>
+                <MarketCode>3</MarketCode>
                 <ReferenceNumber>123456</ReferenceNumber>
                 <TicketNumber>123456</TicketNumber>
                 <PartialApprovedFlag>1</PartialApprovedFlag>

@@ -14,14 +14,14 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
         <ApplicationVersion>1.00</ApplicationVersion>
     </Application>
     <Transaction>
-        <TransactionID>310805272</TransactionID>
-        <TransactionAmount>56.00</TransactionAmount>
+        <TransactionID>336781540</TransactionID>
+        <TransactionAmount>60.00</TransactionAmount>
         <OriginalAuthorizedAmount>0.00</OriginalAuthorizedAmount>
         <SalesTaxAmount>0.00</SalesTaxAmount>
         <TipAmount>0.00</TipAmount>
         <CashBackAmount>0.00</CashBackAmount>
-        <ReferenceNumber>123456</ReferenceNumber>
-        <TicketNumber>123456</TicketNumber>
+    <ReferenceNumber>${Math.random().toString().substring(2, 11) }</ReferenceNumber>
+        <TicketNumber>${Math.random().toString().substring(2, 11) }</TicketNumber>
         <MarketCode>3</MarketCode>
         <DuplicateCheckDisableFlag>0</DuplicateCheckDisableFlag>
         <PaymentType>0</PaymentType>

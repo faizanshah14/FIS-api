@@ -2,7 +2,6 @@
 
 exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
     return `
-
     <CheckQuery xmlns="https://transaction.elementexpress.com">
     <Credentials>
         <AccountID>${AccountID}</AccountID>
@@ -18,11 +17,19 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
         <TransactionID>308097766</TransactionID>
         <TransactionAmount>1.00</TransactionAmount>
         <MarketCode>3</MarketCode>
-        <ReferenceNumber>123456</ReferenceNumber>
-        <TicketNumber>123456</TicketNumber>
+        <ReferenceNumber>${Math.random().toString().substring(2, 11) }</ReferenceNumber>
+        <TicketNumber>${Math.random().toString().substring(2, 11) }</TicketNumber>
     </Transaction>
     <Terminal>
-        <TerminalID>01</TerminalID>
+        <TerminalID>0001</TerminalID>
+        <CardholderPresentCode>7</CardholderPresentCode>
+        <CardInputCode>4</CardInputCode>
+        <CardPresentCode>3</CardPresentCode>
+        <CVVPresenceCode>1</CVVPresenceCode>
+        <TerminalCapabilityCode>5</TerminalCapabilityCode>
+        <TerminalEnvironmentCode>6</TerminalEnvironmentCode>
+        <TerminalType>2</TerminalType>
+        <MotoECICode>7</MotoECICode>
     </Terminal>
 </CheckQuery>
     `

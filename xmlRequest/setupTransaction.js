@@ -42,7 +42,7 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
             <ApprovalNumber></ApprovalNumber>
             <TransactionAmount>2.00</TransactionAmount>
             <MarketCode>3</MarketCode>
-            <ReferenceNumber>123456</ReferenceNumber>
+        <ReferenceNumber>${Math.random().toString().substring(2, 11) }</ReferenceNumber>
             <DuplicateCheckDisableFlag>1</DuplicateCheckDisableFlag>
         </Transaction>
         <Terminal>

@@ -23,10 +23,10 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
         <EncryptedFormat></EncryptedFormat>
         <Track2Data></Track2Data>
         <Track1Data></Track1Data>
-        <CardNumber>8171999927660000</CardNumber>
+        <CardNumber>3530111333300000</CardNumber>
         <ExpirationMonth>12</ExpirationMonth>
         <ExpirationYear>22</ExpirationYear>
-        <CVV>111</CVV>
+        <CVV>564</CVV>
         <CVVResponseCode>M</CVVResponseCode>
     </Card>
     <Address>
@@ -49,10 +49,10 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
         <AddressEditAllowed></AddressEditAllowed>
     </Address>
     <Transaction>
-        <TransactionAmount>16.00</TransactionAmount>
+        <TransactionAmount>10.00</TransactionAmount>
         <MarketCode>3</MarketCode>
-        <ReferenceNumber>123456</ReferenceNumber>
-        <TicketNumber>123456</TicketNumber>
+    <ReferenceNumber>${Math.random().toString().substring(2, 11) }</ReferenceNumber>
+        <TicketNumber>${Math.random().toString().substring(2, 11) }</TicketNumber>
         <PartialApprovedFlag>0</PartialApprovedFlag>
         <DuplicateCheckDisableFlag>0</DuplicateCheckDisableFlag>
         <PaymentType>0</PaymentType>

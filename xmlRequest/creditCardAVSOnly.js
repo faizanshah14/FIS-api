@@ -50,8 +50,8 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
     <Transaction>
         <TransactionAmount>60.00</TransactionAmount>
         <MarketCode>3</MarketCode>
-        <ReferenceNumber>123456</ReferenceNumber>
-        <TicketNumber>123456</TicketNumber>
+    <ReferenceNumber>${Math.random().toString().substring(2, 11) }</ReferenceNumber>
+        <TicketNumber>${Math.random().toString().substring(2, 11) }</TicketNumber>
         <PartialApprovedFlag>0</PartialApprovedFlag>
         <DuplicateCheckDisableFlag>0</DuplicateCheckDisableFlag>
         <DuplicateOverrideFlag>0</DuplicateOverrideFlag>

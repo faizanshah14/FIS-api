@@ -14,11 +14,11 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID})=>{
         <ApplicationVersion>1.00</ApplicationVersion>
     </Application>
 	<Transaction>
-		<TransactionID>310806347</TransactionID>
-		<TransactionAmount>60.00</TransactionAmount>
+		<TransactionID>336784777</TransactionID>
+		<TransactionAmount>94.00</TransactionAmount>
 		<MarketCode>3</MarketCode>
-		<ReferenceNumber>123456</ReferenceNumber>
-		<TicketNumber>123456</TicketNumber>
+		<ReferenceNumber>${Math.random().toString().substring(2, 11) }</ReferenceNumber>
+		<TicketNumber>${Math.random().toString().substring(2, 11) }</TicketNumber>
 		<ReversalType>1</ReversalType>
 	</Transaction>
 	<Terminal>

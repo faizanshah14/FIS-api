@@ -52,11 +52,30 @@ exports.xmlBody = ({AccountID, AccountToken, AcceptorID, ApplicationID}) => {
                 <ExpirationYear>25</ExpirationYear>
                 <CVV>111</CVV>
             </Card>
+            <Address>
+                <BillingName></BillingName>
+                <BillingEmail></BillingEmail>
+                <BillingPhone></BillingPhone>
+                <BillingAddress1>4</BillingAddress1>
+                <BillingAddress2></BillingAddress2>
+                <BillingCity></BillingCity>
+                <BillingState></BillingState>
+                <BillingZipcode>33606</BillingZipcode>
+                <ShippingName></ShippingName>
+                <ShippingEmail></ShippingEmail>
+                <ShippingPhone></ShippingPhone>
+                <ShippingAddress1></ShippingAddress1>
+                <ShippingAddress2></ShippingAddress2>
+                <ShippingCity></ShippingCity>
+                <ShippingState></ShippingState>
+                <ShippingZipcode></ShippingZipcode>
+                <AddressEditAllowed></AddressEditAllowed>
+            </Address>
             <Transaction>
-                <TransactionAmount>13.00</TransactionAmount>
+                <TransactionAmount>94.00</TransactionAmount>
                 <MarketCode>3</MarketCode>
-                <ReferenceNumber>123456</ReferenceNumber>
-                <TicketNumber>123456</TicketNumber>
+                <ReferenceNumber>${Math.random().toString().substring(2, 11) }</ReferenceNumber>
+                <TicketNumber>${Math.random().toString().substring(2, 11) }</TicketNumber>
                 <PartialApprovedFlag>1</PartialApprovedFlag>
                 <DuplicateCheckDisableFlag>1</DuplicateCheckDisableFlag>
                 <PaymentType>0</PaymentType>
